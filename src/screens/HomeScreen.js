@@ -102,7 +102,9 @@ export default function HomeScreen() {
             </View>
           </View>
         ) : (
-          <Features />
+          <View className="flex-1">
+            <Features />
+          </View>
         )}
 
         {/* recording, clear and stop buttons */}
